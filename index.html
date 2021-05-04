@@ -8,38 +8,45 @@
     <meta name="robots" content="index,follow">
     <title>Portafolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/js/main.js">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-custom navbar-mainbg">
-            <a class="navbar-brand navbar-logo" href="#">Geomatica</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars text-white"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Acerca</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Contacto</a>
-                    </li>
-                </ul>
+        <nav class="navbar">
+            <div id="trapezoid">
+              <a class="sub-home" href="#">Home</a>
+              <a href="#" class="expandHome">About</a>
+               <div class="subnav">
+               <button class="subnavbtn">Acerca<i class="fa fa-caret-down"></i></button>
+                 <div class="subnav-content">
+                  <div id="subnav-trapezoid">
+                    <a href="#Clients">Burger King</a>
+                    <a href="#Clients">Southwest Airlines</a>
+                    <a href="#Clients">Levi Strauss</a>
+                  </div>
+                 </div>
+              </div>
+            
+               <div class="subnav">
+               <button class="subnavbtn">Proyectos<i class="fa fa-caret-down"></i></button>
+                 <div class="subnav-content">
+                  <div class="subnav-trapezoid">
+                    <a href="#">Print Design</a>
+                    <a href="#">Web Design</a>
+                    <a href="#">Mobile App Development</a>
+                   </div>
+                 </div>
+                </div>
+              <a href="#" class="expandHome">Contacto</a>
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <section>
+            <h1>GEOMÁTICA</h1>
+        </section>
+    </main>
 </body>
 </html>
