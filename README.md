@@ -1,4 +1,4 @@
 # portafolio.github.io
 
-https://UrielMendoza.github.io
+https://urielmendoza.github.io/portafolio.github.io/
 
